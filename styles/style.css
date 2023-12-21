@@ -41,9 +41,6 @@
   text-underline-offset: 4px;
   letter-spacing: normal;
 }
-.header-nav__list {
-  margin-top: 0px;
-}
 .header-item__active {
   list-style: none;
 }
@@ -64,18 +61,16 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-.card{
+.card {
   position: relative;
   z-index: 1;
 }
 .section-title {
   padding: 165px 0 0 50px;
   display: block;
-  display: block;
   color: #fff;
   font-family: "Raleway", sans-serif;
   font-size: 100px;
-  font-style: normal;
   font-weight: 700;
   line-height: 115%;
   letter-spacing: 30px;
@@ -160,7 +155,6 @@
 .card_type_link,
 .card_type_link-film,
 .card_type_link__book {
-  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
