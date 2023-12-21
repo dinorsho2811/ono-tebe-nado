@@ -155,8 +155,7 @@
   width: 430px;
   min-height: 450px;
   background-position: center;
-  background-size: cover;
-  background-size: contain;
+ 
 }
 .lots-title {
   max-width: 454px;
@@ -177,15 +176,13 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 120%; /* 24px */
+  line-height: 120%;   
 }
 .card_type_link-film {
   background-image: url(../images/card-lot-02.jpg);
   width: 430px;
   min-height: 450px;
   background-position: center;
-  background-size: cover;
-  background-size: contain;
 }
 .section-lots-list-item {
   list-style: none;
