@@ -128,7 +128,6 @@
   background: transparent;
   transition: transform 0.3s ease;
   cursor: pointer;
-  color: #fff;
 }
 .lots {
   padding: 180px 33px 0 33px;
@@ -151,17 +150,13 @@
 .lots__heading__title__list {
   list-style: none;
 }
-.card_type_link,
-.card_type_link,
-.card_type_link-film,
-.card_type_link__book {
-  background-position: center;
-  background-size: cover;
-}
 .card_type_link {
   background-image: url(../images/card-lot-01.jpg);
   width: 430px;
   min-height: 450px;
+  background-position: center;
+  background-size: cover;
+  background-size: contain;
 }
 .lots-title {
   max-width: 454px;
@@ -188,6 +183,9 @@
   background-image: url(../images/card-lot-02.jpg);
   width: 430px;
   min-height: 450px;
+  background-position: center;
+  background-size: cover;
+  background-size: contain;
 }
 .section-lots-list-item {
   list-style: none;
