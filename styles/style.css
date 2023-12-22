@@ -273,16 +273,7 @@
   line-height: normal;
   padding: 100px 0 0 26px;
 }
-.about__text {
-  color: #000;
-  font-family: "Raleway" sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  padding: 25px 0 0 25px;
-  width: 850px;
-}
+
 .footer {
   margin: 181px 59px 163px 50px;
   display: flex;
@@ -308,10 +299,9 @@
   list-style: none;
   text-align: center;
 }
+
 .footer__link {
   text-decoration: none;
-}
-.footer__link {
   color: #000;
   text-align: center;
   font-family: "Raleway", sans-serif;
