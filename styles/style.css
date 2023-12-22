@@ -275,7 +275,7 @@
 }
 
 .footer {
-  margin: 181px 59px 163px 50px;
+  margin: 105px 59px 163px 50px;
   display: flex;
   justify-content: space-between;
 }
@@ -295,13 +295,14 @@
 .footer-list {
   display: flex;
   flex-direction: column;
-  margin: 0 0 0 160px;
+  margin: 0 0 0 259px;
   list-style: none;
   text-align: center;
 }
-
-.footer__link {
+.footer-link{
   text-decoration: none;
+}
+.footer__link {
   color: #000;
   text-align: center;
   font-family: "Raleway", sans-serif;
@@ -309,7 +310,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-underline-offset: 3px;
+  text-underline-offset: 4px;
 }
 .footer__social-list {
   display: flex;
