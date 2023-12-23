@@ -107,7 +107,7 @@
   margin: 5px 0px 0 900px;
 }
 
-.section__right-spacing{
+.section__right-spacing {
   margin: 0px 0px 0 30px;
 }
 .section-content {
@@ -138,7 +138,7 @@
   background: transparent;
   transition: transform 0.3s ease;
   cursor: pointer;
-  color: white;
+ 
   margin-left: 30px;
 }
 .lots {
