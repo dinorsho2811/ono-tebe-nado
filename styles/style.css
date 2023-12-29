@@ -31,7 +31,7 @@
   max-height: 100%;
   object-fit: contain;
 }
-.header__link_active {
+.header__link {
   color: #000;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -41,7 +41,7 @@
   text-underline-offset: 4px;
   letter-spacing: normal;
 }
-.header-item__active {
+.header-item {
   list-style: none;
 }
 .header__address {
@@ -106,14 +106,13 @@
   text-align: center;
   margin: 5px 0px 0 900px;
 }
-
 .section__right-spacing {
   margin: 0px 0px 0 30px;
 }
 .section-content {
   display: flex;
   justify-content: center;
-  margin: 127px 0   0 360px;
+  margin: 127px 0 0 360px;
   align-items: center;
 }
 .section-content-text {
@@ -138,7 +137,6 @@
   background: transparent;
   transition: transform 0.3s ease;
   cursor: pointer;
- 
   margin-left: 30px;
 }
 .lots {
@@ -155,16 +153,15 @@
   text-transform: uppercase;
 }
 .lots__list {
-  display: flex;
-  margin: 27px 00 0 17px;
+  display: grid;
+  grid-template-columns:repeat(2,730px);
+  grid-template-rows: repeat(1, 450px);
+  margin: 27px 0 0 17px;
   gap: 25px;
-}
-.lots__list-item {
   list-style: none;
 }
 .card_type_link {
   background-image: url(../images/card-lot-01.jpg);
-  
 }
 .lots-title {
   max-width: 454px;
@@ -189,8 +186,6 @@
 }
 .card_type_link-film {
   background-image: url(../images/card-lot-02.jpg);
-  width: 430px;
-  min-height: 450px;
 }
 .section-lots-list-item {
   list-style: none;
@@ -209,11 +204,6 @@
 }
 .card_type_link_book {
   background-image: url(../images/card-lot-03.jpg);
-  width: 430px;
-  min-height: 450px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .lots_title {
   max-width: 400px;
@@ -252,7 +242,7 @@
   display: flex;
   margin: 123px 50px 0px 0px;
 }
-.section-image {
+.about__image {
   width: 430px;
   display: flex;
   margin: 58px 0 0 50px;
@@ -280,8 +270,7 @@
   width: 900px;
   letter-spacing: normal;
   line-height: normal;
- padding-top: 22px;
- padding-left: 28px;
+  margin: 22px 0 0 25px;
 }
 
 .footer {
@@ -308,7 +297,7 @@
   list-style: none;
   text-align: center;
 }
-.footer-link {
+.footer__link_active {
   text-decoration: none;
 }
 .footer__link {
@@ -323,11 +312,11 @@
 }
 .footer__social-list {
   display: flex;
- gap: 23px 43px;
+  gap: 23px 43px;
 }
 .footer__social-list-item {
   list-style: none;
 }
 .footer__social-link {
-  width:48px;
+  width: 48px;
 }
