@@ -117,6 +117,7 @@
   justify-content: center;
   margin: 127px 0 0 360px;
   align-items: center;
+  color: white;
 }
 .section-content-text {
   margin-right: 37px;
@@ -140,7 +141,6 @@
   background: transparent;
   transition: transform 0.3s ease;
   cursor: pointer;
-  color: white;
   margin-left: 30px;
 }
 .lots {
@@ -200,18 +200,6 @@
 }
 .card_type_link_book {
   background-image: url(../images/card-lot-03.jpg);
-}
-.lots-title {
-  max-width: 400px;
-  padding: 50px 37px 0 39px;
-  color: #fff;
-  font-family: "Raleway", sans-serif;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%;
-  text-decoration-line: underline;
-  text-transform: uppercase;
 }
 .text-card-item {
   width: 350px;
